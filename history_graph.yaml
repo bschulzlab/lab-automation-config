@@ -1,0 +1,6 @@
+door_status:
+  name: Fridge -80 Status
+  entities:
+    -  binary_sensor.0x00158d0002c01de0_contact
+  hours_to_show: 72
+  refresh: 60

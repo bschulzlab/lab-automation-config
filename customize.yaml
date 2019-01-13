@@ -1,0 +1,8 @@
+binary_sensor.0x00158d0002c01de0_contact:
+  friendly_name: fridge_80_door_status
+sensor.0x00158d0002c01de0_battery:
+  friendly_name: fridge_80_door_battery
+binary_sensor.0x00158d0002bfedfb_contact:
+  friendly_name: fridge_20_door_status
+sensor.0x00158d0002bfedfb_battery:
+  friendly_name: fridge_20_door_battery
