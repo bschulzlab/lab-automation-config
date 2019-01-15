@@ -6,3 +6,10 @@ default_view:
     - binary_sensor.0x00158d0002bfedfb_contact
     - history_graph.20_fridge_door_status
     - history_graph.80_fridge_door_status
+
+all_sensor_status:
+  name: All Sensors
+  view: yes
+  entities:
+    - history_graph.20_fridge_door_status
+    - history_graph.80_fridge_door_status
