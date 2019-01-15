@@ -42,27 +42,10 @@ discovery:
 conversation:
 
 # Enables support for tracking state changes over time
-history:
-  include:
-    entities:
-      - binary_sensor.0x00158d0002c01de0_contact
-      - sensor.0x00158d0002c01de0_battery
-      - binary_sensor.0x00158d0002bfedfb_contact
-      - sensor.0x00158d0002bfedfb_battery
+history: !include history.yaml
 
-history_graph:
-  fridge_80:
-    name: -80 Fridge Door Status
-    entities:
-      - binary_sensor.0x00158d0002c01de0_contact
-    hours_to_show: 24
-    refresh: 60
-  fridge_20:
-    name: -20 Fridge Door Status
-    entities:
-      - binary_sensor.0x00158d0002bfedfb_contact
-    hours_to_show: 24
-    refresh: 60
+history_graph: !include history_graph.yaml
+
 
 # View all events in a logbook
 logbook:
