@@ -7,9 +7,9 @@ default_view:
     - history_graph.20_fridge_door_status
     - history_graph.80_fridge_door_status
 
-all_sensor_status:
-  name: All Sensors
+all_sensor_batteries:
+  name: All Sensor Batteries
   view: yes
   entities:
-    - history_graph.20_fridge_door_status
-    - history_graph.80_fridge_door_status
+    - sensor.0x00158d0002c01de0_battery
+    - sensor.0x00158d0002bfedfb_battery
