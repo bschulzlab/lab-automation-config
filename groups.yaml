@@ -1,1 +1,6 @@
-
+default_view:
+  view: yes
+  icon: mdi:home-assistant
+  entities:
+    - binary_sensor.0x00158d0002c01de0_contact
+    - binary_sensor.0x00158d0002bfedfb_contact
