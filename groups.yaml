@@ -4,3 +4,5 @@ default_view:
   entities:
     - binary_sensor.0x00158d0002c01de0_contact
     - binary_sensor.0x00158d0002bfedfb_contact
+    - history_graph.20_fridge_door_status
+    - history_graph.80_fridge_door_status
