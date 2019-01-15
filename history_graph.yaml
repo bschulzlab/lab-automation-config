@@ -2,13 +2,11 @@
     name: -80 Fridge Door Status
     entities:
       - binary_sensor.0x00158d0002c01de0_contact
-      - sensor.0x00158d0002c01de0_battery
     hours_to_show: 24
     refresh: 60
   fridge_20:
     name: -20 Fridge Door Status
     entities:
-      - binary_sensor.0x00158d0002bfedfb_contact
-      - sensor.0x00158d0002bfedfb_battery
+      - binary_sensor.0x00158d0002bfedfb_contact     
     hours_to_show: 24
     refresh: 60
