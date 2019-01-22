@@ -12,7 +12,6 @@
         minutes: 4
   action:
     - service: notify.door_sensor_notification
-      data_template:
+      data:
         title: 'Fridge door opened duration alert.'
-        entity_id: "{{ trigger.entity_id }}"
         message: "{{trigger.from_state.attributes.friendly_name}} has been opened for {{trigger.for}}"
