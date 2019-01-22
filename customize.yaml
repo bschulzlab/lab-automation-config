@@ -1,11 +1,11 @@
 binary_sensor.0x00158d0002c01de0_contact:
-  friendly_name: freezer_80_door_status
+  friendly_name: freezer_-80_door_status
 sensor.0x00158d0002c01de0_battery:
-  friendly_name: freezer_80_door_battery
+  friendly_name: freezer_-80_door_battery
 binary_sensor.0x00158d0002bfedfb_contact:
-  friendly_name: freezer_20_door_status
+  friendly_name: freezer_-20_door_status
 sensor.0x00158d0002bfedfb_battery:
-  friendly_name: freezer_20_door_battery
+  friendly_name: freezer_-20_door_battery
 binary_sensor.0x00158d0002e22e07_contact:
   friendly_name: fridge_4_door_status
 sensor.0x00158d0002e22e07_battery:
@@ -14,3 +14,7 @@ binary_sensor.0x00158d0002ebd1b8_contact:
   friendly_name: freezer_4_door_status
 sensor.0x00158d0002ebd1b8_battery:
   friendly_name: freezer_4_door_battery
+binary_sensor.0x00158d0002e9eb61_contact:
+  friendly_name: freezer_-20_reagent_battery
+sensor.0x00158d0002e9eb61_battery:
+  friendly_name: freezer_-20_reagent_battery
