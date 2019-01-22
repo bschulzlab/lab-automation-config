@@ -7,7 +7,7 @@
       - binary_sensor.0x00158d0002bfedfb_contact
       - binary_sensor.0x00158d0002e22e07_contact
       - binary_sensor.0x00158d0002ebd1b8_contact
-      to: 'on'
+      to: 'Open'
       for:
         minutes: 4
   action:
