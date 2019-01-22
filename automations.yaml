@@ -8,10 +8,11 @@
       - binary_sensor.0x00158d0002e22e07_contact
       - binary_sensor.0x00158d0002ebd1b8_contact
       - binary_sensor.0x00158d0002e9eb61_contact
+      - binary_sensor.0x00158d0002eb9e8e_contact
       from: 'off'
       to: 'on'
       for:
-        minutes: 4
+        minutes: 15
   action:
     - service: notify.door_sensor_notification
       data_template:

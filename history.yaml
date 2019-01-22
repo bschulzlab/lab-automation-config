@@ -11,4 +11,6 @@
       - sensor.0x00158d0002ebd1b8_battery
       - binary_sensor.0x00158d0002e9eb61_contact
       - sensor.0x00158d0002e9eb61_battery
+      - binary_sensor.0x00158d0002eb9e8e_contact
+      - sensor.0x00158d0002eb9e8e_battery
       

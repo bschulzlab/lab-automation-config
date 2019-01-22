@@ -15,6 +15,10 @@ binary_sensor.0x00158d0002ebd1b8_contact:
 sensor.0x00158d0002ebd1b8_battery:
   friendly_name: freezer_4_door_battery
 binary_sensor.0x00158d0002e9eb61_contact:
-  friendly_name: freezer_-20_reagent_battery
+  friendly_name: freezer_-20_near_4_degree_battery
 sensor.0x00158d0002e9eb61_battery:
-  friendly_name: freezer_-20_reagent_battery
+  friendly_name: freezer_-20_near_4_degree_battery
+binary_sensor.0x00158d0002eb9e8e_contact:
+  friendly_name: freezer_-20_near_shaker_contact
+sensor.0x00158d0002eb9e8e_battery:
+  friendly_name: freezer_-20_near_shaker_battery
