@@ -1,1 +1,17 @@
-[]
+door_opened:
+  alias: Door Opened Alarm
+  trigger:
+    - platform: state
+      entity_id: 
+      - binary_sensor.0x00158d0002c01de0_contact
+      - binary_sensor.0x00158d0002bfedfb_contact
+      - binary_sensor.0x00158d0002e22e07_contact
+      - binary_sensor.0x00158d0002ebd1b8_contact
+      to: 'Open'
+      for:
+        minutes: 4
+  action:
+    - service: notify.door_sensor_notification
+      data:
+        title: 'Fridge door opened duration alert.'
+        message: "Door of {{trigger.from_state.attributes.friendly_name}} has been opened for {{trigger.for}}"

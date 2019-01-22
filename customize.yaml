@@ -10,3 +10,7 @@ binary_sensor.0x00158d0002e22e07_contact:
   friendly_name: fridge_4_door_status
 sensor.0x00158d0002e22e07_battery:
   friendly_name: fridge_4_door_battery
+binary_sensor.0x00158d0002ebd1b8_contact:
+  friendly_name: freezer_4_door_status
+sensor.0x00158d0002ebd1b8_battery:
+  friendly_name: freezer_4_door_battery

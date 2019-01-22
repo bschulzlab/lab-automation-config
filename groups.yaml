@@ -5,9 +5,11 @@ default_view:
     - binary_sensor.0x00158d0002c01de0_contact
     - binary_sensor.0x00158d0002bfedfb_contact
     - binary_sensor.0x00158d0002e22e07_contact
+    - binary_sensor.0x00158d0002ebd1b8_contact
     - history_graph.20_freezer_door_status
     - history_graph.80_freezer_door_status
     - history_graph.4_fridge_door_status
+    - history_graph.4_freezer_door_status
 
 all_sensor_batteries:
   name: All Sensor Batteries
@@ -16,3 +18,4 @@ all_sensor_batteries:
     - sensor.0x00158d0002c01de0_battery
     - sensor.0x00158d0002bfedfb_battery
     - sensor.0x00158d0002e22e07_battery
+    - sensor.0x00158d0002ebd1b8_battery

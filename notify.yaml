@@ -1,1 +1,10 @@
-  - name: 
+  - name: door_sensor_notification
+    platform: smtp
+    sender: toan.phung@proteo.info
+    recipient:
+      - toan.phungkhoiquoctoan@gmail.com
+    server: smtp.gmail.com
+    port: 587
+    username: toan.phung@proteo.info
+    password: !secret smtp_passwd
+    sender_name: Sensor Notification
