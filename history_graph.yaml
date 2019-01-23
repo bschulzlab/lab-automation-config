@@ -22,8 +22,8 @@
       - binary_sensor.0x00158d0002ebd1b8_contact  
     hours_to_show: 24
     refresh: 60
-  freezer_4:
-    name: -20 Freezer Next To 4 Degree Fridge Door Status
+  freezer_20_near_4_degree:
+    name: -20 Freezer Near 4 Degree Fridge Door Status
     entities:
       - binary_sensor.0x00158d0002e9eb61_contact  
     hours_to_show: 24
