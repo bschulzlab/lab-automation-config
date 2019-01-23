@@ -22,3 +22,9 @@ binary_sensor.0x00158d0002eb9e8e_contact:
   friendly_name: westinghouse_south_door_status
 sensor.0x00158d0002eb9e8e_battery:
   friendly_name: westinghouse_south_door_battery
+sensor.0x00158d0002e93679_humidity:
+  friendly_name: bioline_humidity
+sensor.0x00158d0002e93679_pressure:
+  friendly_name: bioline_pressure
+sensor.0x00158d0002e93679_temperature:
+  friendly_name: bioline_temperature

@@ -34,3 +34,9 @@
       - binary_sensor.0x00158d0002eb9e8e_contact
     hours_to_show: 24
     refresh: 60
+  bioline:
+    name: Bioline
+    entities:
+      - sensor.0x00158d0002e93679_humidity
+      - sensor.0x00158d0002e93679_pressure
+      - sensor.0x00158d0002e93679_temperature

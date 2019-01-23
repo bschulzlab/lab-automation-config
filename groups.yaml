@@ -25,3 +25,9 @@ all_sensor_batteries:
     - sensor.0x00158d0002ebd1b8_battery
     - sensor.0x00158d0002e9eb61_battery
     - sensor.0x00158d0002eb9e8e_battery
+
+temperature:
+  name: All Shaker Temperature
+  view: yes
+  entities:
+    - history_graph.bioline
