@@ -8,12 +8,12 @@ default_view:
     - binary_sensor.0x00158d0002ebd1b8_contact
     - binary_sensor.0x00158d0002e9eb61_contact
     - binary_sensor.0x00158d0002eb9e8e_contact
-    - history_graph.20_freezer_door_status
+    - history_graph.westinghouse_north
     - history_graph.80_freezer_door_status
-    - history_graph.4_fridge_door_status
-    - history_graph.4_freezer_door_status
-    - history_graph.20_freezer_near_4_degree_door_status
-    - history_graph.20_freezer_near_shaker_door_status
+    - history_graph.fisher_fridge
+    - history_graph.fisher_freezer
+    - history_graph.kelvinator
+    - history_graph.westinghouse_south
 
 all_sensor_batteries:
   name: All Sensor Batteries

@@ -4,32 +4,32 @@
       - binary_sensor.0x00158d0002c01de0_contact
     hours_to_show: 24
     refresh: 60
-  freezer_20:
-    name: -20 Freezer Door Status
+  westinghouse_north:
+    name: Westinghouse North
     entities:
       - binary_sensor.0x00158d0002bfedfb_contact     
     hours_to_show: 24
     refresh: 60
-  fridge_4:
-    name: 4 Fridge Door Status
+  fisher_fridge:
+    name: Fisher Fridge
     entities:
       - binary_sensor.0x00158d0002e22e07_contact    
     hours_to_show: 24
     refresh: 60
-  freezer_4:
-    name: 4 Freezer Door Status
+  fisher_freezer:
+    name: Fisher Freezer
     entities:
       - binary_sensor.0x00158d0002ebd1b8_contact  
     hours_to_show: 24
     refresh: 60
-  freezer_20_near_4_degree:
-    name: -20 Freezer Near 4 Degree Fridge Door Status
+  kelvinator:
+    name: Kelvinator
     entities:
       - binary_sensor.0x00158d0002e9eb61_contact  
     hours_to_show: 24
     refresh: 60
-  freezer_20_near_shaker:
-    name: -20 Freezer Near Shaker Door Status
+  westinghouse_south:
+    name: Westinghouse South
     entities:
       - binary_sensor.0x00158d0002eb9e8e_contact
     hours_to_show: 24
