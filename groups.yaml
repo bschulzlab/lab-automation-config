@@ -27,7 +27,7 @@ all_sensor_batteries:
     - sensor.0x00158d0002eb9e8e_battery
 
 temperature:
-  name: All Shaker Temperature
+  name: Shaker Temperature
   view: yes
   entities:
-    - history_graph.bioline
+    - history_graph.shaker_temperature

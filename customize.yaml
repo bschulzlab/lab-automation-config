@@ -28,3 +28,9 @@ sensor.0x00158d0002e93679_pressure:
   friendly_name: bioline_pressure
 sensor.0x00158d0002e93679_temperature:
   friendly_name: bioline_temperature
+sensor.0x00158d00025d9065_humidity:
+  friendly_name: lab_humidity
+sensor.0x00158d00025d9065_pressure:
+  friendly_name: lab_pressure
+sensor.0x00158d00025d9065_temperature:
+  friendly_name: lab_temperature

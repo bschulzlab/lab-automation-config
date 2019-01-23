@@ -34,9 +34,20 @@
       - binary_sensor.0x00158d0002eb9e8e_contact
     hours_to_show: 24
     refresh: 60
+  shaker:
+    name: Shaker Temperature
+    entities:
+      - sensor.0x00158d0002e93679_temperature
+      - sensor.0x00158d00025d9065_temperature
   bioline:
     name: Bioline
     entities:
       - sensor.0x00158d0002e93679_humidity
       - sensor.0x00158d0002e93679_pressure
       - sensor.0x00158d0002e93679_temperature
+  lab:
+    name: Lab
+    entities:
+      - sensor.0x00158d00025d9065_humidity
+      - sensor.0x00158d00025d9065_pressure
+      - sensor.0x00158d00025d9065_temperature
