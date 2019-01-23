@@ -4,6 +4,7 @@
   recipient:
     - toan.phungkhoiquoctoan@gmail.com
     - edward.kerr@uq.net.au
+    - c.pegg1@uq.edu.au
   server: smtp.gmail.com
   port: 587
   username: toan.phung@proteo.info
