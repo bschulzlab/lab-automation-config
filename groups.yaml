@@ -8,7 +8,7 @@ default_view:
     - binary_sensor.0x00158d0002ebd1b8_contact
     - binary_sensor.0x00158d0002e9eb61_contact
     - binary_sensor.0x00158d0002eb9e8e_contact
-    - history_graph.fridge_freezer
+    - history_graph.fridge_and_freezer_door_status
 
 all_sensor_batteries:
   name: All Sensor Batteries
