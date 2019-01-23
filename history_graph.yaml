@@ -1,3 +1,12 @@
+  fridge_freezer:
+    name: Fridge and freezer door status
+    entities:
+      - binary_sensor.0x00158d0002c01de0_contact
+      - binary_sensor.0x00158d0002bfedfb_contact
+      - binary_sensor.0x00158d0002e22e07_contact
+      - binary_sensor.0x00158d0002ebd1b8_contact
+      - binary_sensor.0x00158d0002e9eb61_contact
+      - binary_sensor.0x00158d0002eb9e8e_contact
   freezer_80:
     name: -80 Freezer Door Status
     entities:
@@ -39,6 +48,7 @@
     entities:
       - sensor.0x00158d0002e93679_temperature
       - sensor.0x00158d00025d9065_temperature
+      - sensor.0x00158d0002ca02b8_temperature
   bioline:
     name: Bioline
     entities:
@@ -51,3 +61,9 @@
       - sensor.0x00158d00025d9065_humidity
       - sensor.0x00158d00025d9065_pressure
       - sensor.0x00158d00025d9065_temperature
+  nbiotek:
+    name: N-Biotek
+    entities:
+      - sensor.0x00158d0002ca02b8_humidity
+      - sensor.0x00158d0002ca02b8_pressure
+      - sensor.0x00158d0002ca02b8_temperature

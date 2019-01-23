@@ -34,3 +34,9 @@ sensor.0x00158d00025d9065_pressure:
   friendly_name: lab_pressure
 sensor.0x00158d00025d9065_temperature:
   friendly_name: lab_temperature
+sensor.0x00158d0002ca02b8_humidity:
+  friendly_name: nbiotek_humidity
+sensor.0x00158d0002ca02b8_pressure:
+  friendly_name: nbiotek_pressure
+sensor.0x00158d0002ca02b8_temperature:
+  friendly_name: nbiotek_temperature
