@@ -1,27 +1,27 @@
 binary_sensor.0x00158d0002c01de0_contact:
   friendly_name: freezer_-80
 sensor.0x00158d0002c01de0_battery:
-  friendly_name: freezer_-80_door_battery
+  friendly_name: freezer_-80_battery
 binary_sensor.0x00158d0002bfedfb_contact:
   friendly_name: westinghouse_north
 sensor.0x00158d0002bfedfb_battery:
-  friendly_name: westinghouse_north_door_battery
+  friendly_name: westinghouse_north_battery
 binary_sensor.0x00158d0002e22e07_contact:
   friendly_name: fisher_fridge
 sensor.0x00158d0002e22e07_battery:
-  friendly_name: fisher_fridge_door_battery
+  friendly_name: fisher_fridge_battery
 binary_sensor.0x00158d0002ebd1b8_contact:
   friendly_name: fisher_freezer
 sensor.0x00158d0002ebd1b8_battery:
-  friendly_name: fisher_freezer_door_battery
+  friendly_name: fisher_freezer_battery
 binary_sensor.0x00158d0002e9eb61_contact:
   friendly_name: kelvinator
 sensor.0x00158d0002e9eb61_battery:
-  friendly_name: kelvinator_door_battery
+  friendly_name: kelvinator_battery
 binary_sensor.0x00158d0002eb9e8e_contact:
   friendly_name: westinghouse_south
 sensor.0x00158d0002eb9e8e_battery:
-  friendly_name: westinghouse_south_door_battery
+  friendly_name: westinghouse_south_battery
 sensor.0x00158d0002e93679_humidity:
   friendly_name: bioline_humidity
 sensor.0x00158d0002e93679_pressure:
